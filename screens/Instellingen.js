@@ -8,7 +8,7 @@ const regios = [
   { id: "zuid", label: "Zuid" },
 ];
 
-const schooljaren = ["2024-2025", "2025-2026", "2026-2027", "2027-2028"];
+const schooljaren = ["2025-2026", "2026-2027", "2027-2028"];
 
 export default function Instellingen() {
   const { regio, setRegio, schooljaar, setSchooljaar } = useAppContext();

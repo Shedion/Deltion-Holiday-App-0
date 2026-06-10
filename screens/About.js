@@ -76,6 +76,9 @@ export default function About() {
           </View>
         ))}
       </View>
+        <Text style={{ textAlign: "center", fontSize: 12, color: "#666", marginBottom: 20 }}>
+          © {new Date().getFullYear()} Shedion Martis. Alle rechten voorbehouden.
+        </Text>
     </ScrollView>
   );
 }
